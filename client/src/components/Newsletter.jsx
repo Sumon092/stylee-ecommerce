@@ -29,11 +29,13 @@ justify-content:space-between;
 const Input = styled.input`
 border:none;
 flex:8;
-padding:8px;
 padding-left:20px;
 `
 const Button = styled.button`
 flex:1;
+border:none;
+background-color:teal;
+color:white;
 cursor:pointer;
 `
 const Newsletter = () => {
