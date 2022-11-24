@@ -56,7 +56,9 @@ margin:0px 5px;
 cursor:pointer;
 `
 const FilterSize = styled.select`
-
+margin-left: 10px;
+padding:5px;
+/* font-size: 14px; */
 `
 const FilterSizeOption = styled.option`
 
