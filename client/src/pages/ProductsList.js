@@ -20,13 +20,14 @@ const Filter = styled.div`
 margin:20px;
 `
 const FilterText = styled.span`
-font-style: 20px;
+font-size: 20px;
 font-weight: 600;
 margin-right: 20px;
 `
 const Select = styled.select`
-padding: 10px;
+padding: 15px;
 margin-right: 20px;
+font-size: 20px;
 `
 const Option = styled.option`
 
@@ -35,8 +36,8 @@ const Option = styled.option`
 const ProductsList = () => {
     return (
         <Container>
-            <Announcement />
             <Navbar />
+            <Announcement />
             <Title>Dresses</Title>
             <FilterContainer>
                 <Filter><FilterText>Filter Products</FilterText>
