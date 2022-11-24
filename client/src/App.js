@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './pages/Home';
+import ProductsList from './pages/ProductsList';
 
 function App() {
   return (
     <>
-      <Home />
+      {/* <Home /> */}
+      <ProductsList />
     </>
   );
 }
